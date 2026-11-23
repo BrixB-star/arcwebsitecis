@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem 6rem; /* Extra bottom padding so content isn't covered by the fixed player */
+      background-color: #000000;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    h1, h2, h3, p {
+      margin: 0.5rem 0;
+    }
+
+    video {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0 1.5rem;
+      border-radius: 8px;
+    }
+
+    .music-player-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #141414;
+      border-top: 1px solid #2c2c2c;
+      padding: 0.75rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .track-title {
+      font-size: 0.9rem;
+      color: #e0e0e0;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Media Page</h1>
+
+<h2>Hire me!</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zV0tsvC2WkA?si=6BwcURxYaYQAaME4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</body>
+</html>
